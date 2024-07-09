@@ -129,6 +129,7 @@ body {
     margin: 0 auto;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
+    margin-bottom: 100PX;
 }
 
 .web-title {
@@ -136,17 +137,17 @@ body {
     text-align: center;
     width: 946px;
     height: 113px;
-  
+
 }
 
 .working {
     width: 946px;
     height: 336px;
     margin: 0 auto;
-   
+
     background-color: white;
     margin-bottom: 40px;
-   
+
 }
 
 .working-container-1 {
@@ -154,5 +155,108 @@ body {
     justify-content: space-between;
     padding: 48px;
     align-items: center;
+
+}
+
+/* insprition styles here */
+.insprition {
+    max-width: 1140px;
+    height: 775px;
+
+    margin: 100px auto 183px auto;
+    border-radius: 16px;
+
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.insprition-title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px 97px 0px 97px;
+    padding-left: 47px;
+    padding-right: 47px;
+
+}
+
+.insprition .motivate-video {
+    width: 1076px;
+    height: 550px;
+    border-radius: 10px;
+
+
+
+}
+
+.insprition {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    align-items: center;
+    margin-top: 0px;
+}
+
+/* current target */
+.current-target {
+    max-width: 1140px;
+    height: 450px;
+    margin: 0 auto 111px auto;
+}
+
+.current-target-title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.html-section {
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
    
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.css-section {
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.js-section {
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+  background-color:rgba(255, 223, 0, 0.05)
+}
+.sections{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 0px;
+}
+.for-padding{
+    padding: 40px;
+    
+}
+.logo{
+    margin-bottom: 24px;
+}
+.for-margin{
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+.more{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(13, 19, 33);
+    text-decoration: underline;
+
 }

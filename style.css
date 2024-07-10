@@ -68,7 +68,7 @@ body {
     padding: 17px 24px;
     border-radius: 5px;
     background: none;
-    border-style: ridge;
+    box-sizing: border-box;
 
 
 }
@@ -217,7 +217,7 @@ body {
     width: 364px;
     height: 299px;
     border-radius: 16px;
-   
+
     background: rgba(255, 76, 30, 0.05);
 }
 
@@ -233,30 +233,161 @@ body {
     width: 364px;
     height: 299px;
     border-radius: 16px;
-  background-color:rgba(255, 223, 0, 0.05)
+    background-color: rgba(255, 223, 0, 0.05)
 }
-.sections{
+
+.sections {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 24px;
     margin-bottom: 0px;
 }
-.for-padding{
+
+.for-padding {
     padding: 40px;
-    
+
 }
-.logo{
+
+.logo {
     margin-bottom: 24px;
 }
-.for-margin{
+
+.for-margin {
     margin-top: 8px;
     margin-bottom: 24px;
 }
-.more{
+
+.more {
     font-size: 16px;
     font-weight: 700;
     color: rgb(13, 19, 33);
     text-decoration: underline;
+
+}
+
+/* next-target styles here */
+.next-target {
+    max-width: 1140px;
+    height: 866px;
+
+    margin: 0 auto;
+    margin-bottom: 23px;
+}
+
+.next-target-content {
+    width: 946px;
+    height: 113px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.ex-content {
+    max-width: 1140px;
+    height: 219px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 16px;
+    margin-bottom: 24px;
+    background: rgb(255, 255, 255);
+}
+
+.ex-content {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+
+}
+
+/* About me section */
+.about-me {
+    max-width: 1140px;
+    height: 314px;
+
+    margin: 0 auto;
+    background-image: url(assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5);
+
+}
+
+.info {
+    width: 548px;
+    height: 57px;
+    border-style: none;
+    border-radius: 8px;
+}
+
+.subbmit-btn {
+    width: 120px;
+    height: 58px;
+    background-color: white;
+    border-style: none;
+    border-radius: 8px;
+}
+
+.btn-items {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+
+}
+
+.about-title {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.about-content {
+    text-align: center;
+}
+.about-description{
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+margin-top: 16px; 
+margin-bottom: 40px;
+}
+/* contract section */
+.contract{
+    max-width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+   
+    margin-top: 79px;
+    border-radius: 16px;
+
+    background: rgba(13, 19, 33, 0.03);
+   
+}
+.contract-title{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.contract-container{
+    max-width: 1140px;
+    height: 36px ;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0 auto;
+   padding-top: 32px;
+   padding-bottom: 32px;
+  
 
 }

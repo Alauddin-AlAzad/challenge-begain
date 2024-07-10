@@ -40,7 +40,14 @@ body {
     opacity: 0.7;
     padding: 12px 20px;
     margin-top: 32px;
+    cursor: pointer;
 
+}
+.shared-btn:hover {
+    opacity: 1;
+    background-color: rgb(13, 19, 33); 
+    color: white;
+    
 }
 
 
@@ -69,8 +76,16 @@ body {
     border-radius: 5px;
     background: none;
     box-sizing: border-box;
+    cursor: pointer;
+    
 
 
+}
+.nav-btn:hover {
+    opacity: 1;
+    background-color: rgb(13, 19, 33); 
+    color: white;
+    
 }
 
 /* banner-style here */
@@ -114,7 +129,13 @@ body {
     background-color: black;
     padding: 21px 24px 21px 24px;
     border-radius: 10px;
+    cursor: pointer;
 
+}
+.banner-btn-content:hover {
+    opacity: 1;
+    background-color: rgb(171, 12, 202); 
+    color: white;
 }
 
 .banner-img {
@@ -333,7 +354,16 @@ body {
     background-color: white;
     border-style: none;
     border-radius: 8px;
+    cursor: pointer;
 }
+.subbmit-btn:hover{
+        opacity: 1;
+        background-color: rgb(13, 19, 33); 
+        color: white;
+        
+    
+}
+
 
 .btn-items {
     display: flex;

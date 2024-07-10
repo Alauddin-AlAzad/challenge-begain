@@ -43,13 +43,6 @@ body {
     cursor: pointer;
 
 }
-.shared-btn:hover {
-    opacity: 1;
-    background-color: rgb(13, 19, 33); 
-    color: white;
-    
-}
-
 
 /* nav-bar styles here */
 .nav-container {
@@ -77,22 +70,13 @@ body {
     background: none;
     box-sizing: border-box;
     cursor: pointer;
-    
 
-
-}
-.nav-btn:hover {
-    opacity: 1;
-    background-color: rgb(13, 19, 33); 
-    color: white;
-    
 }
 
 /* banner-style here */
 .banner {
     max-width: 1440px;
     min-height: 652px;
-
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -132,12 +116,6 @@ body {
     cursor: pointer;
 
 }
-.banner-btn-content:hover {
-    opacity: 1;
-    background-color: rgb(171, 12, 202); 
-    color: white;
-}
-
 .banner-img {
     margin-top: 26px;
     margin-bottom: 46px;
@@ -356,13 +334,8 @@ body {
     border-radius: 8px;
     cursor: pointer;
 }
-.subbmit-btn:hover{
-        opacity: 1;
-        background-color: rgb(13, 19, 33); 
-        color: white;
-        
-    
-}
+
+
 
 
 .btn-items {
@@ -382,42 +355,46 @@ body {
 .about-content {
     text-align: center;
 }
-.about-description{
-color: rgb(255, 255, 255);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-text-align: center;
-margin-top: 16px; 
-margin-bottom: 40px;
+
+.about-description {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 40px;
 }
+
 /* contract section */
-.contract{
+.contract {
     max-width: 1440px;
     height: 100px;
     margin: 0 auto;
-   
+
     margin-top: 79px;
     border-radius: 16px;
 
     background: rgba(13, 19, 33, 0.03);
-   
+
 }
-.contract-title{
+
+.contract-title {
     color: rgb(13, 19, 33);
     font-size: 20px;
     font-weight: 700;
 
 }
-.contract-container{
+
+.contract-container {
     max-width: 1140px;
-    height: 36px ;
+    height: 36px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     margin: 0 auto;
-   padding-top: 32px;
-   padding-bottom: 32px;
-  
+    padding-top: 32px;
+    padding-bottom: 32px;
+
 
 }

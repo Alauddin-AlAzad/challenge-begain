@@ -183,6 +183,8 @@ body {
     width: 1076px;
     height: 550px;
     border-radius: 10px;
+    padding-left: 32px;
+    margin-top: 32px;
 
 
 
@@ -195,6 +197,13 @@ body {
     border-radius: 15px;
     align-items: center;
     margin-top: 0px;
+}
+.motivate{
+    width: 1140px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    height: 614px;
+    border-radius: 16px;
+    box-sizing: border-box;
 }
 
 /* current target */
